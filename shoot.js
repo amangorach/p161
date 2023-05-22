@@ -9,7 +9,7 @@ AFRAME.registerComponent('bullets', {
                 var bullet = document.createElement("a-entity")
                 bullet.setAttribute("geometry", {
                     primitive: "sphere",
-                    radius: 0.1
+                    radius: 1
                 });
                 bullet.setAttribute("material", "color", "black");
                 var cam = document.querySelector("#camera");
